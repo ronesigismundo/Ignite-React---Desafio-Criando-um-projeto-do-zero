@@ -1,1 +1,63 @@
 // TODO
+.contentHome {
+
+  a {
+    display: block;
+
+    & + a {
+      margin-top: 2rem;
+      padding-top: 2rem;
+    }
+
+    strong {
+      display: block;
+      font-size: 1.866rem;
+      font-weight: 700;
+      line-height: 2rem;
+
+      color: var(--gray-200);
+    }
+
+    p {
+      color: var(--gray-300);
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      line-height: 1.625rem;
+      font-weight: 400;
+    }
+
+    .footerContent{
+      display: flex;
+      align-items: center;
+
+
+      time, span {
+        display: flex;
+        font-size: 0.933rem;
+        color: var(--gray-300);
+        margin-top: 1.4rem;
+        align-items: center;
+
+        svg {
+          margin-right: 0.5rem;
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+      span {
+          margin-left: 1.5rem;
+      }
+    }
+  }
+
+}
+
+.buttonMorePost {
+  background: transparent;
+  border: none;
+  margin-top: 4rem;
+  color: var(--purper-500);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
